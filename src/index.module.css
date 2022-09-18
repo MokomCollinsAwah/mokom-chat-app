@@ -50,7 +50,7 @@ body {
 }
 
 .formWrapper {
-    width: 40%;
+    width: 25%;
     padding: 20px 40px;
     background: var(--color-white);
     border-radius: 10px;
@@ -58,8 +58,8 @@ body {
 }
 
 .formTitle {
-    font-weight: 100;
-    font-size: 20px;
+    font-weight: 200;
+    font-size: 30px;
 }
 
 .formWrapper .logo {
@@ -81,6 +81,10 @@ body {
     border: none;
     color: var();
     border-bottom: 1px solid var(--color-purple);
+    transition: var(--transition);
+}
+.formInput:focus {
+    border: 2px solid lightblue;
 }
 
 .formBtn {

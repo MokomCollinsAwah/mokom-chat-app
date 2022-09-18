@@ -1,8 +1,8 @@
 import React from "react";
-import Home from "./pages/Home";
+import Register from "./pages/Register";
 
 const App = () => {
-  return <Home />;
+  return <Register />;
 };
 
 export default App;
